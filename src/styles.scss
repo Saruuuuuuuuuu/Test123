@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+html,body{
+    all: unset;
+    height: 1050px;
+
+}
+.container-1{
+    background-color: lightgray;
+    border-radius: 0 0 0 25px;
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    .container-1-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p{
+            font-size: 30px;
+        }
+        button{
+            border-radius: 20px;
+            width: 80px;
+            height: 40px;
+            color: white;
+            background-color: black;
+            font-size: 12px;
+            
+        }
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        .section-1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            gap: 10px;
+            button{
+                border-radius: 20px;
+                width: 75px;
+                height: 20px;
+
+            }
+        }        
+    }
+}
+.container-2{
+    background-color: snow;
+    border-radius: 25px 0 0 25px;
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-3{
+    background-color: lightgray;
+    border-radius: 25px 0 0 25px;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 25px;
+    .container-3-body{
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-3-middle{
+        
+        button{
+            border-radius: 20px;
+            width: 75px;
+            height: 40px;
+            color: black;
+            background-color: white;
+            font-size: 12px;
+        }
+    }
+    .container-3-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 80px;
+        p{
+            font-size: 20px;
+        }
+        .subtext{
+            font-size: 12px;
+            color: whitesmoke;
+        }
+    }
+
+}
+.container-4{
+    border-radius: 25px 0 0 25px;
+    box-sizing: border-box;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        gap: 20px;
+        .black{
+            border: lightgray 1px solid;
+            box-sizing: border-box;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 80px;
+        }
+        .white{
+            border: lightgray 1px solid;
+            box-sizing: border-box;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            height: 30px;
+            width: 80px;
+        }
+
+    }
+}
